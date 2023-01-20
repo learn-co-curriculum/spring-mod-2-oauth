@@ -44,6 +44,11 @@ provided to access resources, which is then passed to the application to grant
 the appropriate permissions. These tokens come in a specific format, usually as
 a **JSON Web Token** or JWT.
 
+Consider a valet key. Most cars nowadays come with a special key we could
+provide to a valet driver. The valet key only allows the valet to start the car.
+The key will not open the trunk nor the glove box. We can think of that valet
+key as the access token in an OAuth scenario.
+
 ## How Does OAuth Work?
 
 Let's look at the process of how OAuth may work. Assume we have an application,
@@ -90,6 +95,9 @@ In the diagram above...
 
 This is the same process if we were to download an app and login using
 Facebook or Google!
+
+Consider another real world analogy here:
+[OAuth explained with real life example](https://lunaticmonk.medium.com/oauth-explained-with-real-life-example-f0386ad63637).
 
 OAuth is considered a standard in the industry when it comes to authorization
 since it does not share sensitive information, like a password, making it more
